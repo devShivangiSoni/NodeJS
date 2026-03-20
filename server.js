@@ -8,7 +8,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   //here comes the request
-  res.end("welcome");
+  res.end("Welcome to NodeJS Server");
 });
 
 //specilfy the port to listen the client reqest
